@@ -35,3 +35,4 @@ jobs:
           pack build ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{steps.vars.outputs.sha_short}} \
               --builder paketobuildpacks/builder:base \
               --path . \
+              --publish
