@@ -32,4 +32,4 @@ USER appuser
 COPY . .
 
 # Run the application
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["python", "/home/appuser/main.py"]
