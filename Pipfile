@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-python-gitlab = "==3.5.0"
+python-gitlab = "==3.6.0"
 
 [requires]
 python_version = "3.10"
